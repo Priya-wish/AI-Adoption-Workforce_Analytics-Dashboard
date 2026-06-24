@@ -1,7 +1,7 @@
 Data Dictionary
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Column Name          |          Description                               |    Data Type         |    Description                                                  |       Sample Values
----------------------|----------------------------------------------------|----------------------|-----------------------------------------------------------------|--------------------------------------------------------------------------                                                                                               |
+                                                                                   |
 Job Title            |        Name of the job role                        |   Categorical        |specifies the role or positoin offered in the job market.        |  Data Analyst , AI Engineer ,Product Manager.
 Industry             |        Industry sector of the company              |   Categorical        |Represents the industry sector in which the organization         |Technology, Healthcare, Finance, Retail, Entertainment.
 Company Size         |        Organization size                           |                      |operates.
@@ -13,7 +13,7 @@ Required Skills      |        Key skills required for the role            |   Ca
 Salary USD|          |        Annual salary in USD                        |   Numerical          |Annual salary offered for the position in US Dollars.            | 65000, 85000, 120000
 Remote Friendly      |        Indicates whether remote work is allowed    |   Categorical        | Indicates whether the role supports remote work.                | Yes, No
 Job Growth Projection|       Future growth outlook of the job role        |   Categorical        |Represents the expected future demand for the role.              | Growth, Decline
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 Dataset Statistics
