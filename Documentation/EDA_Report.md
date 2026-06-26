@@ -1,16 +1,19 @@
 # Exploratory Data Analysis (EDA)
 
-## Industry Distribution 
-- Manufacturing has the highest number of AI-related job postong (58).
+## Industry Distribution
+
+- Manufacturing has the highest number of AI-related job postings (58).
 - Transportation has the lowest job count (39).
 
 ## Geographical Analysis
--San Franciscp has the highest AI job opportunities.
--Toronto has the lowest job count.
-  
-## Compensation analysis
--Finance offers the highest average salary.
--Transportation offers the lowest average salary.
+
+- San Francisco has the highest AI job opportunities.
+- Toronto has the lowest job count.
+
+## Compensation Analysis
+
+- Finance offers the highest average salary.
+- Transportation offers the lowest average salary.
 
 ## AI Adoption Analysis
 
