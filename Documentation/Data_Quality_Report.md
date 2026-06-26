@@ -2,7 +2,7 @@
 
 ## Dataset Information
 
-- Total Records: 501
+- Total Records: 500
 - Total Features: 10
 
 ## Missing Values Analysis
