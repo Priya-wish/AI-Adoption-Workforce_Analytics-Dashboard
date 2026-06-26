@@ -17,7 +17,7 @@
 
 | Metric | Value |
 |---------|--------|
-| Total Records | 501 |
+| Total Records | 500 |
 | Total Features | 10 |
 | Dataset Type | Workforce & AI Adoption Analytics |
 | Analysis Domain | Workforce Analytics, AI Adoption, Future of Work |
