@@ -5,8 +5,8 @@
 - Transportation has the lowest job count (39).
 
 ## Geographical Analysis
-  -San Franciscp has the highest AI job opportunities.
-  -Toronto has the lowest job count.
+-San Franciscp has the highest AI job opportunities.
+-Toronto has the lowest job count.
   
 ## Compensation analysis
 -Finance offers the highest average salary.
