@@ -9,6 +9,7 @@ The dataset contains 10 Unique industries.
 How many jobs are available in each industry ?
 
 **insight:**
+
 -Manufacturing has the highest number of AI-related job postings(58).
 
 -Transportation has the lowest number of AI-related job postings(39).
