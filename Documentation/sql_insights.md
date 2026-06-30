@@ -56,7 +56,7 @@ This suggests that AI hiring demand is strongest in Manufacturing and weakest in
 
 
 ### Q4. How many ai jobs postings are available in each location?
-...
+--
 ### SQL Used
 
 SELECT AI_Adoption_Level,
