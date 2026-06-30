@@ -53,9 +53,10 @@ ORDER BY Total_Jobs DESC;
 - Transportation has the lowest number of job postings (39).
 
 This suggests that AI hiring demand is strongest in Manufacturing and weakest in Transportation within this dataset.
----
-### Q4. How many ai jobs postings are available in each location?
 
+
+### Q4. How many ai jobs postings are available in each location?
+---
 ### SQL Used
 
 SELECT AI_Adoption_Level,
@@ -72,9 +73,9 @@ ORDER BY Total_Jobs DESC;
 
 This Indicates that most AI-related job opportunities in the datset come from organizations with medium AI adoption levels, while organizations with high AI adoption have fewer job poatings.
 
----
-### Business Question 5
 
+### Business Question 5
+---
 What is the salary distribution of AI jobs?
 
 ### SQL Used
