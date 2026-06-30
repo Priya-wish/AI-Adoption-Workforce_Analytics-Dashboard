@@ -33,6 +33,7 @@ The dataset contains **10 unique industries**:
 - Technology
 - Telecommunications
 - Transportation
+  
 
 ## Q3. How many jobs are available in each industry?
 
