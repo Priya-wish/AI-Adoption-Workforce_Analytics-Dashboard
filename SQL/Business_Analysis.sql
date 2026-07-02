@@ -70,3 +70,15 @@ COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights
 GROUP BY Automation_Risk
 ORDER BY Total_Jobs DESC;
+
+
+-- =====================================================
+-- Business Question 8
+-- How many AI job postings offer remote work?
+-- =====================================================
+
+SELECT Remote_Work_Ratio,
+COUNT(*) AS Total_Jobs
+FROM ai_job_market_insights
+GROUP BY Remote_Work_Ratio
+ORDER BY Total_Jobs DESC;
