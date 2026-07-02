@@ -9,6 +9,7 @@
 SELECT COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights;
 
+
 ===================================================================
 -- Business Question 2
 -- Which industries are present in the dataset?
@@ -17,6 +18,7 @@ FROM ai_job_market_insights;
 SELECT DISTINCT Industry
 FROM ai_job_market_insights
 ORDER BY Industry;
+
 
 ==================================================================
 -- Business Question 3
@@ -29,6 +31,7 @@ FROM ai_job_market_insights
 GROUP BY Industry
 ORDER BY Total_Jobs DESC;
 
+
 =================================================================
 -- Business Question 4
 -- How many AI job postings are available in each location?
@@ -38,6 +41,7 @@ COUNT(*) AS Total_AI_Jobs
 FROM ai_job_market_insights
 GROUP BY Location
 ORDER BY Total_AI_Jobs DESC;
+
 
 ======================================================================
 -- Business Question 5
@@ -55,6 +59,7 @@ FROM ai_job_market_insights;
 SELECT ROUND(MIN(Salary_USD),0) AS Minimum_Salary
 FROM ai_job_market_insights;
 
+
 ========================================================================
 --Business Question 6
 --How many AI job postings are available at each AI Adoption Level ?
@@ -64,6 +69,7 @@ Count(*) AS total_Jobs
 FROM ai_job_market_insights
 GROUP BY AI_Adoption_Level
 ORDER BY Total_Jobs DESC;
+
 
 ===========================================================================
 --Business Question 7
@@ -75,6 +81,7 @@ COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights
 GROUP BY Automation_Risk
 ORDER BY Total_Jobs DESC;
+
 
 
 -- =====================================================
