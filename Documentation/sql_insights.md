@@ -114,8 +114,29 @@ ORDER BY Total_Jobs DESC;
 
 ### Insight
 
-- High Automation Risk has _____ job postings.
-- Medium Automation Risk has _____ job postings.
-- Low Automation Risk has _____ job postings.
+- Medium Automation Risk has the highest number of AI-related job postings (173).
+- High Automation Risk follows with 169 job postings.
+- Low Automation Risk has the lowest number of job postings (158).
 
-This analysis helps understand the distribution of AI jobs across different automation risk levels and highlights which category has the highest hiring demand.
+This analysis indicates that most AI-related job opportunities fall under the medium automation risk category, suggesting that while AI is transforming the workforce, many roles still require significant human involvement.
+
+
+### Business Question 8
+
+How many AI job postings offer remote work?
+
+### SQL Used
+
+SELECT Remote_Friendly,
+COUNT(*) AS Total_Jobs
+FROM ai_job_market_insights
+GROUP BY Remote_Friendly
+ORDER BY Total_Jobs DESC;
+
+### Insight
+
+- 251 AI job postings offer remote work.
+- 249 AI job postings do not offer remote work.
+
+This indicates that remote work opportunities are almost equally distributed in the AI job market. Organizations appear to maintain a balanced approach by offering both remote and non-remote work arrangements.
+
