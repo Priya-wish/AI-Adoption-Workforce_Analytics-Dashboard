@@ -10,10 +10,10 @@ SELECT COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights;
 
 
-===================================================================
+--===================================================================
 -- Business Question 2
 -- Which industries are present in the dataset?
-===================================================================
+--===================================================================
   
 SELECT DISTINCT Industry
 FROM ai_job_market_insights
