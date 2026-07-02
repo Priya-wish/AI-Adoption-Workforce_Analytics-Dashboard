@@ -71,10 +71,10 @@ GROUP BY AI_Adoption_Level
 ORDER BY Total_Jobs DESC;
 
 
-===========================================================================
+/*===========================================================================
 --Business Question 7
 --How many AI job postings are available at eacg Automation RisK Level ?
-===========================================================================
+===========================================================================*/
   
 SELECT Automation_Risk,
 COUNT(*) AS Total_Jobs
