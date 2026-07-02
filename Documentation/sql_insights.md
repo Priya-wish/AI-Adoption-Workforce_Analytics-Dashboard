@@ -99,3 +99,23 @@ FROM ai_job_market_insights;
 - The lowest salary in the dataset is **31,970 USD**.
 
 This analysis provides an overview of the salary range and earning potential for AI-related roles The wide salary range indicates that AI job compensation varies significantly based on factors such as job role,industry,experience level, and location.
+
+### Business Question 7
+
+How many AI job postings are available at each Automation Risk level?
+
+### SQL Used
+
+SELECT Automation_Risk,
+COUNT(*) AS Total_Jobs
+FROM ai_job_market_insights
+GROUP BY Automation_Risk
+ORDER BY Total_Jobs DESC;
+
+### Insight
+
+- High Automation Risk has _____ job postings.
+- Medium Automation Risk has _____ job postings.
+- Low Automation Risk has _____ job postings.
+
+This analysis helps understand the distribution of AI jobs across different automation risk levels and highlights which category has the highest hiring demand.
