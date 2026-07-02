@@ -20,10 +20,10 @@ FROM ai_job_market_insights
 ORDER BY Industry;
 
 
-==================================================================
+--==================================================================
 -- Business Question 3
 -- How many jobs are available in each industry?
-===================================================================
+--===================================================================
   
 SELECT Industry,
 COUNT(*) AS Total_Jobs
@@ -32,10 +32,10 @@ GROUP BY Industry
 ORDER BY Total_Jobs DESC;
 
 
-=================================================================
+--=================================================================
 -- Business Question 4
 -- How many AI job postings are available in each location?
-==================================================================
+--==================================================================
 SELECT Location,
 COUNT(*) AS Total_AI_Jobs
 FROM ai_job_market_insights
@@ -43,10 +43,10 @@ GROUP BY Location
 ORDER BY Total_AI_Jobs DESC;
 
 
-======================================================================
+--======================================================================
 -- Business Question 5
 -- What is the salary distribution of AI jobs?
-======================================================================
+--======================================================================
 -- Average Salary
 SELECT ROUND(AVG(Salary_USD),0) AS Average_Salary
 FROM ai_job_market_insights;
@@ -71,10 +71,10 @@ GROUP BY AI_Adoption_Level
 ORDER BY Total_Jobs DESC;
 
 
-/*===========================================================================
+--===========================================================================
 --Business Question 7
 --How many AI job postings are available at eacg Automation RisK Level ?
-===========================================================================*/
+--===========================================================================*/
   
 SELECT Automation_Risk,
 COUNT(*) AS Total_Jobs
