@@ -89,8 +89,8 @@ ORDER BY Total_Jobs DESC;
 -- How many AI job postings offer remote work?
 -- =====================================================
 
-SELECT Remote_Work_Ratio,
+SELECT Remote_Friendly,
 COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights
-GROUP BY Remote_Work_Ratio
+GROUP BY Remote_Friendly
 ORDER BY Total_Jobs DESC;
