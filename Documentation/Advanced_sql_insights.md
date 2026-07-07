@@ -24,7 +24,7 @@ This analysis helps job seekers identify the highest paying indsutries and enabl
 # Advanced Business Question 2
 
 ## Which location offers the highest average salary ?
--
+
 
 ### SQL Used
 
@@ -48,7 +48,7 @@ This analysis shows how average salaries vary across different locations, helpin
 # Advanced Business Question 3
 
 ## Which AI Adoption Level Offers the highest average salary ?
--
+
 ### SQL Used
 
 ```SELECT AI_Adoption_Level,
@@ -67,7 +67,7 @@ This indicates that organizations with lower AI adoption offer slightly higher a
 
 
 # Advanced Business Question 4
--
+
 ### Which automation risk category offers the highest average salary?
 
 ### SQL Used
@@ -88,7 +88,7 @@ This analysis shows that higher automation risk roles currently offer the highes
 
 
 # Advanced Business Question 5
--
+
 ### Which job titles have the highest average salary?
 
 ### SQL Used
