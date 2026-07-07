@@ -20,7 +20,10 @@ ORDER By Avg_Salary DESC;
 
 This analysis helps job seekers identify the highest paying indsutries and enables organizations to benchmark their salary offerings against market trends.
 
+# Advanced Business Question 2
+
 ## Which location offers the highest average salary ?
+---
 
 ### SQL Used
 
@@ -40,8 +43,10 @@ ORDER BY High_Avg_Salary DESC;
 
 This analysis shows how average salaries vary across different locations, helping identify the highest-paying job markets in the dataset.
 
-## Which AI Adoption Level Offers the highest average salary ?
+# Advanced Business Question 3
 
+## Which AI Adoption Level Offers the highest average salary ?
+---
 ### SQL Used
 
 ```SELECT AI_Adoption_Level,
@@ -58,7 +63,8 @@ ORDER BY High_Average_Salary DESC;
 
 This indicates that organizations with lower AI adoption offer slightly higher average salaries in this dataset.
 
-
+# Advanced Business Question 4
+---
 ### Which automation risk category offers the highest average salary?
 
 ### SQL Used
@@ -77,7 +83,8 @@ ORDER BY High_Average_Salary DESC;
 
 This analysis shows that higher automation risk roles currently offer the highest average salaries in this dataset.
 
-
+# Advanced Business Question 5
+---
 ### Which job titles have the highest average salary?
 
 ### SQL Used
