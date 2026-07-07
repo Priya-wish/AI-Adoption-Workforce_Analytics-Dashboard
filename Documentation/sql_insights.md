@@ -2,8 +2,9 @@
 
 ### SQL Used
 
-SELECT COUNT(*) AS Total_Jobs
+```SELECT COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights;
+```
 
 ### Insight
 
@@ -15,9 +16,10 @@ This confirms that all further analyses are based on a dataset of 500 job postin
 
 ### SQL Used
 
-SELECT DISTINCT Industry
+```SELECT DISTINCT Industry
 FROM ai_job_market_insights
 ORDER BY Industry;
+```
 
 ### Insight
 
@@ -39,11 +41,12 @@ The dataset contains **10 unique industries**:
 
 ### SQL Used
 
-SELECT Industry,
+```SELECT Industry,
 COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights
 GROUP BY Industry
 ORDER BY Total_Jobs DESC;
+```
 
 ### Insight
 
@@ -59,17 +62,18 @@ This suggests that AI hiring demand is strongest in Manufacturing and weakest in
 
 ### SQL Used
 
-SELECT AI_Adoption_Level,
+```SELECT AI_Adoption_Level,
 COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights
 Group By AI_Adoption_Level
 ORDER BY Total_Jobs DESC;
+```
 
 ### Insight
 
--Medium AI Adoption leve; has the highest number of AI -related job postings(179).
--Low AI Adoption follows with 174 job postings.
--High AI Adoption has the lowest number of job postings(147).
+- Medium AI Adoption leve; has the highest number of AI -related job postings(179).
+- Low AI Adoption follows with 174 job postings.
+- High AI Adoption has the lowest number of job postings(147).
 
 This Indicates that most AI-related job opportunities in the datset come from organizations with medium AI adoption levels, while organizations with high AI adoption have fewer job poatings.
 
@@ -81,16 +85,19 @@ What is the salary distribution of AI jobs?
 ### SQL Used
 
 -- Average Salary
-SELECT ROUND(AVG(Salary_USD),0) AS Average_Salary
+``` ROUND(AVG(Salary_USD),0) AS Average_Salary
 FROM ai_job_market_insights;
+```
 
 -- Maximum Salary
-SELECT ROUND(MAX(Salary_USD),0) AS Maximum_Salary
+```SELECT ROUND(MAX(Salary_USD),0) AS Maximum_Salary
 FROM ai_job_market_insights;
+```
 
 -- Minimum Salary
-SELECT ROUND(MIN(Salary_USD),0) AS Minimum_Salary
+```SELECT ROUND(MIN(Salary_USD),0) AS Minimum_Salary
 FROM ai_job_market_insights;
+```
 
 ### Insight
 
@@ -106,11 +113,12 @@ How many AI job postings are available at each Automation Risk level?
 
 ### SQL Used
 
-SELECT Automation_Risk,
+```SELECT Automation_Risk,
 COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights
 GROUP BY Automation_Risk
 ORDER BY Total_Jobs DESC;
+```
 
 ### Insight
 
@@ -127,11 +135,12 @@ How many AI job postings offer remote work?
 
 ### SQL Used
 
-SELECT Remote_Friendly,
+```SELECT Remote_Friendly,
 COUNT(*) AS Total_Jobs
 FROM ai_job_market_insights
 GROUP BY Remote_Friendly
 ORDER BY Total_Jobs DESC;
+```
 
 ### Insight
 
