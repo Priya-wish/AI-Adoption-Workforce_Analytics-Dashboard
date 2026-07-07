@@ -23,7 +23,7 @@ This analysis helps job seekers identify the highest paying indsutries and enabl
 # Advanced Business Question 2
 
 ## Which location offers the highest average salary ?
----
+-
 
 ### SQL Used
 
