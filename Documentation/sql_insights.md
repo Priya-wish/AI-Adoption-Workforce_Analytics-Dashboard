@@ -80,7 +80,7 @@ This Indicates that most AI-related job opportunities in the datset come from or
 
 ### Business Question 5
 
-What is the salary distribution of AI jobs?
+### What is the salary distribution of AI jobs?
 
 ### SQL Used
 
@@ -109,7 +109,7 @@ This analysis provides an overview of the salary range and earning potential for
 
 ### Business Question 7
 
-How many AI job postings are available at each Automation Risk level?
+### How many AI job postings are available at each Automation Risk level?
 
 ### SQL Used
 
@@ -131,7 +131,7 @@ This analysis indicates that most AI-related job opportunities fall under the me
 
 ### Business Question 8
 
-How many AI job postings offer remote work?
+### How many AI job postings offer remote work?
 
 ### SQL Used
 
