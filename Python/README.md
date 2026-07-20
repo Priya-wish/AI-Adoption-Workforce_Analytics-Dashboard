@@ -21,10 +21,10 @@ This project performs Exploratory Data Analysis (EDA) on an AI job market datase
 -Correlation Matrix
 
 ## Key Business Insights
--Most AI jobs fall within a competitive salary range.
--Medium AI adoption is the most common level.
--Automation risk differs across job roles.
--Python, Machine learning, Data Analysis, and Project Management are among the most demanded skills.
+-Most AI jobs fall within a competitive salary range. 
+-Medium AI adoption is the most common level. 
+-Automation risk differs across job roles. 
+-Python, Machine learning, Data Analysis, and Project Management are among the most demanded skills. 
 -Salary trends vary across different company sizes.
 
 ## Conclusion
