@@ -60,10 +60,10 @@ SELECT ROUND(MIN(Salary_USD),0) AS Minimum_Salary
 FROM ai_job_market_insights;
 
 
-========================================================================
+--========================================================================
 --Business Question 6
 --How many AI job postings are available at each AI Adoption Level ?
-========================================================================
+--========================================================================
 SELECT AI_Adoption_Level,
 Count(*) AS total_Jobs
 FROM ai_job_market_insights
