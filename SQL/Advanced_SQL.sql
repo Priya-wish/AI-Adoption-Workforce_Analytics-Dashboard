@@ -1,7 +1,8 @@
-
+--
 ======================================================================
 -- Advanced Business Question 1 
 -- Which industry offers the highest average salary ?
+--
 =======================================================================
 
 SELECT Industry,
