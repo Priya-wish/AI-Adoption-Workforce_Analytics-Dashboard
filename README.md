@@ -79,35 +79,35 @@ GitHub Portfolio
 ## Dashboard 1 – AI Workforce Analytics
 Provides an overview of AI workforce trends, salary distribution, industry analysis, AI adoption, automation risk, and remote work opportunities.
 
-> *(Insert Dashboard 1 Screenshot here)*
+![Dashboard 1](Screenshots/Dashboard1_AI_Workforce.png)
 
 ---
 
 ## Dashboard 2 – AI Workforce Salary Overview
 Analyzes salary trends across industries, company sizes, AI adoption levels, automation risk, and projected job growth.
 
-> *(Insert Dashboard 2 Screenshot here)*
+![Dashboard 2](Screenshots/Dashboard2_Salary.png)
 
 ---
 
 ## Dashboard 3 – Skills & Industry Analysis
 Explores industry demand, required skills, salary distribution, remote work trends, and AI adoption across industries.
 
-> *(Insert Dashboard 3 Screenshot here)*
+![Dashboard 3](Screenshots/Dashboard3_Skills_Industry.png)
 
 ---
 
 ## Dashboard 4 – Location Analysis
 Visualizes geographical distribution of AI jobs and compares salaries across different locations.
 
-> *(Insert Dashboard 4 Screenshot here)*
+![Dashboard 4](Screenshots/Dashboard4_Locations.png)
 
 ---
 
 ## Dashboard 5 – AI Adoption & Future Workforce Trends
 Analyzes AI adoption, automation risk, remote work distribution, salary trends, and future workforce growth.
 
-> *(Insert Dashboard 5 Screenshot here)*
+![Dashboard 5](Screenshots/Dashboard5_AI-adoption.png)
 
 ---
 
