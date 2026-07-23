@@ -93,7 +93,7 @@ Analyzes salary trends across industries, company sizes, AI adoption levels, aut
 ## Dashboard 3 – Skills & Industry Analysis
 Explores industry demand, required skills, salary distribution, remote work trends, and AI adoption across industries.
 
-![Dashboard 3](Screenshots/Dashboard3_Skills_Industry.png)
+![Dashboard 3](Screenshots/Dashboard3_SKills_Industry.png)
 
 ---
 
